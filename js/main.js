@@ -1,29 +1,29 @@
-// const animatedSections = document.querySelectorAll("section, footer");
-// const bubbleLayer = document.querySelector(".bubble-layer");
-//
-// animatedSections.forEach((section, index) => {
-//     section.style.transitionDelay = `${index * 0.08}s`;
-// });
-//
-// if ("IntersectionObserver" in window) {
-//     const sectionObserver = new IntersectionObserver((entries) => {
-//         entries.forEach((entry) => {
-//             if (entry.isIntersecting) {
-//                 entry.target.classList.add("show");
-//             }
-//         });
-//     }, {
-//         threshold: 0.15
-//     });
-//
-//     animatedSections.forEach((section) => {
-//         sectionObserver.observe(section);
-//     });
-// } else {
-//     animatedSections.forEach((section) => {
-//         section.classList.add("show");
-//     });
-// }
+const animatedSections = document.querySelectorAll("section, footer");
+const bubbleLayer = document.querySelector(".bubble-layer");
+
+animatedSections.forEach((section, index) => {
+    section.style.transitionDelay = `${index * 0.08}s`;
+});
+
+if ("IntersectionObserver" in window) {
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    }, {
+        threshold: 0.15
+    });
+
+    animatedSections.forEach((section) => {
+        sectionObserver.observe(section);
+    });
+} else {
+    animatedSections.forEach((section) => {
+        section.classList.add("show");
+    });
+}
 //
 // function createBubble() {
 //     if (!bubbleLayer) {
