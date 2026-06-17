@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="bg">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DevPortfolio | Front-end Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark portfolio-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo-text" href="#home">&lt;CKrumovDev&gt;</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Отвори меню">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ms-auto gap-lg-5">
+                    <li class="nav-item"><a class="nav-link" href="#home">Начало</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">За мен</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Умения</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Проекти</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section section-border reveal reveal-left">
+            <div class="container">
+                <div class="row align-items-center g-5 min-vh-100">
+                    <div class="col-lg-6">
+                        <div class="welcome-pill">Добре дошли в моето портфолио <span>👋</span></div>
+                        <h1 class="hero-title">
+                            Здравейте, аз съм Цветослав<br>
+                            <span>И съм Уеб</span><br>
+                            <span class="gradient-text">Разработчик</span>
+                        </h1>
+                        <p class="hero-text">
+                            Аз съм Мотивиран стажант-програмист (Intern Frontend Developer), търся първата си професионална възможност да създавам красиви и функционални уеб приложения и да продължа да предизвиквам себе си и да развивам своите умения!
+                        </p>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="#projects" class="btn main-btn">Виж моите проекти <i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="#contact" class="btn outline-btn">Свържи се с мен</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end">
+                        <div class="hero-orb-wrap">
+                            <div class="bubble-layer" aria-hidden="true"></div>
+                            <div class="hero-orb" aria-label="Място за профилна снимка">
+                                <img src="img/portfolioImg-removebg-preview.png" alt="Профилна снимка" class="hero-photo mb-5" style="border-radius:50% ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section section-border reveal reveal-right">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>За <span>Мен</span></h2>
+                    <div class="title-line"></div>
+                    <div>
+                        <p class="mb-3">Здравей! Аз съм Цветослав и се интересувам от уеб разработка, front-end технологии и UI/UX дизайн.
+                        Обичам да уча нови неща и да развивам уменията си чрез практика, лични проекти и работа по реални задачи.</p>
+
+                        <p class="mb-3">В момента се фокусирам върху HTML, CSS, Bootstrap и PHP,
+                        като постоянно надграждам знанията си и търся начини да подобрявам както техническите си умения,
+                        така и подхода си към разработката на уеб приложения. Харесва ми да създавам подредени, удобни и визуално приятни интерфейси,
+                            които предлагат добро потребителско изживяване.</p>
+
+                        <p class="mb-3">Търся възможности да натрупам практически опит,
+                        да уча от по-опитни разработчици и да продължа развитието си в сферата на уеб разработката.</p>
+
+                    </div>
+                </div>
+
+                <div class="row g-4 mt-5">
+                    <div class="col-md-6 col-lg-4">
+                        <article class="info-card h-100">
+                            <div class="card-icon blue"><i class="bi bi-laptop"></i></div>
+                            <h3>Фронтенд Разработка</h3>
+                            <p>Създаване на интерактивни и красиви потребителски интерфейси с HTML, CSS, JavaScript и Bootstrap.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="info-card h-100">
+                            <div class="card-icon violet"><i class="bi bi-code-slash"></i></div>
+                            <h3>Чист Код</h3>
+                            <p>Имам стремеж към писане на четим, поддържаем и семантичен код, следващ най-добрите практики.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mx-md-auto mx-lg-0">
+                        <article class="info-card h-100">
+                            <div class="card-icon purple"><i class="bi bi-lightbulb"></i></div>
+                            <h3>Непрекъснато Учене</h3>
+                            <p>Винаги съм отворен към нови технологии, катко и съм готов за предизвикателства и усъвършенстване.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section skills-section section-border reveal reveal-left">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Моите <span>Умения</span></h2>
+                    <div class="title-line"></div>
+                    <p>Технологиите, с които работя и продължавам да усъвършенствам всеки ден.</p>
+                </div>
+
+                <div class="skills-wrap">
+                    <div class="row g-5">
+                        <div class="col-lg-6">
+                            <div class="skill-item">
+                                <div class="skill-label"><strong>Bootstrap 5</strong><span>35%</span></div>
+                                <div class="progress"><div class="progress-bar bootstrap" style="width: 35%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label"><strong>HTML</strong><span>55%</span></div>
+                                <div class="progress"><div class="progress-bar html" style="width: 50%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label"><strong>CSS</strong><span>55%</span></div>
+                                <div class="progress"><div class="progress-bar cssbar" style="width: 50%"></div></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill-item">
+                                <div class="skill-label"><strong>JavaScript</strong><span>20%</span></div>
+                                <div class="progress"><div class="progress-bar js" style="width: 20%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label"><strong>PHP</strong><span>20%</span></div>
+                                <div class="progress"><div class="progress-bar php" style="width: 20%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label"><strong>Responsive Design</strong><span>75%</span></div>
+                                <div class="progress"><div class="progress-bar responsive" style="width:75%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section section-border reveal reveal-right">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Избрани <span>Проекти</span></h2>
+                    <div class="title-line"></div>
+                    <p>Практически задачи и малки проекти, създадени с цел усвояване на концепциите във Front-end.</p>
+                </div>
+
+                <div class="row g-4 mt-5">
+                    <div class="col-md-6 col-xl-4">
+                        <article class="project-card h-100">
+                            <div class="project-photo">
+                                <div class="project-img project-one"></div>
+                            </div>
+                            <div class="project-body">
+                                <h3>E-commerce Landing Page</h3>
+                                <p>Модерен и респонсив дизайн за онлайн магазин, създаден с HTML, CSS и Bootstrap. Фокус върху UI/UX.</p>
+                                <div class="tags">
+                                    <span>HTML</span><span>Bootstrap 5</span><span>Responsive</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#"><i class="bi bi-github"></i> Код</a>
+                                    <a href="#"><i class="bi bi-box-arrow-up-right"></i> Демо</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="project-card h-100">
+                            <div class="project-photo">
+                                <div class="project-img project-two"></div>
+                            </div>
+                            <div class="project-body">
+                                <h3>Task Management App</h3>
+                                <p>JavaScript базирано приложение за управление на задачи. Използва LocalStorage за запазване на данните.</p>
+                                <div class="tags">
+                                    <span>JavaScript</span><span>DOM Manipulation</span><span>CSS3</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#"><i class="bi bi-github"></i> Код</a>
+                                    <a href="#"><i class="bi bi-box-arrow-up-right"></i> Демо</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <article class="project-card h-100">
+                            <div class="project-photo">
+                                <div class="project-img project-three"></div>
+                            </div>
+                            <div class="project-body">
+                                <h3>IONIX Tech Shop</h3>
+                                <p>IONIX Tech Shop е уеб приложение за онлайн магазин за компютърни компоненти.</p>
+                                <div class="tags">
+                                    <span>PHP</span><span>HTML</span><span>CSS</span><span>MySQL</span><span>BootStrap5</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#"><i class="bi bi-github"></i> Код</a>
+                                    <a href="#"><i class="bi bi-box-arrow-up-right"></i> Демо</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section contact-section section-border reveal reveal-left align-items-center justify-content-center" style="width: 100%;">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Свържи се с <span>Мен</span></h2>
+                    <div class="title-line"></div>
+                    <p>Отворен съм за стажантски позиции и нови възможности.</p>
+                </div>
+
+                <div class="row g-5 justify-content-center align-items-start mt-4">
+                    <div class="col-lg-5">
+                        <div class="contact-info">
+                            <h3>Нека обсъдим следващия проект</h3>
+                            <p>Можете да се свържете с мен директно по имейл. Винаги съм готов за разговор относно уеб разработка и технологии.</p>
+
+                            <div class="contact-line">
+                                <div class="small-icon blue"><i class="bi bi-envelope"></i></div>
+                                <div>
+                                    <span>Имейл</span>
+                                    <strong>cecokrumov9272@gmail.com</strong>
+                                </div>
+                            </div>
+                            <div class="contact-line">
+                                <div class="small-icon purple"><i class="bi bi-geo-alt"></i></div>
+                                <div>
+                                    <span>Локация</span>
+                                    <strong>Враца, България (или Remote)</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    <div class="col-lg-5">-->
+<!--                        <form class="contact-form">-->
+<!--                            <label for="name">Име</label>-->
+<!--                            <input id="name" type="text" placeholder="Иван Иванов">-->
+
+<!--                            <label for="email">Имейл</label>-->
+<!--                            <input id="email" type="email" placeholder="ivan@example.com">-->
+
+<!--                            <label for="message">Съобщение</label>-->
+<!--                            <textarea id="message" rows="5" placeholder="Здравей, пиша ти относно..."></textarea>-->
+
+<!--                            <button type="submit" class="btn main-btn w-100">Изпрати <i class="bi bi-send ms-2"></i></button>-->
+<!--                        </form>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer reveal reveal-right">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-md-4">
+                    <a class="logo-text footer-logo" href="#home">&lt;CKrumovDev&gt;</a>
+                </div>
+                <div class="col-md-4 text-md-center">
+                    <p class="mb-0">&copy; 2026 Изградено с внимание за бъдещи работодатели.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="socials justify-content-md-end">
+                        <a href="https://github.com/Cecouuu" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ckrumov/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Върни се най-горе">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

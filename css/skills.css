@@ -1,0 +1,59 @@
+.skills-section {
+    background:
+        radial-gradient(circle at 7% 67%, rgba(58, 43, 153, 0.1), transparent 18rem),
+        #070708;
+}
+
+.skills-wrap {
+    max-width: 990px;
+    margin: 4.5rem auto 0;
+}
+
+.skill-item {
+    margin-bottom: 2.3rem;
+}
+
+.skill-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    color: #fff;
+}
+
+.skill-label span {
+    color: #b6d6ff;
+}
+
+.progress {
+    height: 13px;
+    background: #252525;
+    border-radius: 999px;
+}
+
+.progress-bar {
+    border-radius: 999px;
+}
+
+.progress-bar.bootstrap {
+    background: linear-gradient(90deg, #7952b3, #b522f2);
+}
+
+.progress-bar.html {
+    background: linear-gradient(90deg, #ff8b22, #ff385c);
+}
+
+.progress-bar.cssbar {
+    background: linear-gradient(90deg, #6eb8ff, #2c73ff);
+}
+
+.progress-bar.js {
+    background: linear-gradient(90deg, #ffd929, #d5961d);
+}
+
+.progress-bar.php {
+    background: linear-gradient(90deg, #7886c7, #5865b2);
+}
+
+.progress-bar.responsive {
+    background: linear-gradient(90deg, #7d88ff, #bd45f0);
+}
