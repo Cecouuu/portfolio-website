@@ -1,6 +1,6 @@
 # Link for my Portfolio
 
-<a href="https://cecouuu.github.io/portfolio-website/" target="_blank">Here is my Portfolio!</a>
+<a href="https://cecouuu.github.io/Portfolio-Website/" target="_blank">Here is my Portfolio!</a>
 
 
 # Portfolio Website
