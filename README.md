@@ -47,6 +47,6 @@ Aspiring Web Developer interested in front-end development, UI/UX design and mod
 
 ### Contact
 
-* LinkedIn: linkedin.com/in/ckrumov
-* GitHub: github.com/Cecouuu
+* LinkedIn: <a href="linkedin.com/in/ckrumov">Tsvetoslav Krumov</a>
+* GitHub: <a href="github.com/Cecouuu">Cecouuu</a>
 * Email: [cecokrumov9272@gmail.com](mailto:cecokrumov9272@gmail.com)
