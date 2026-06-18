@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-=======
 # Link for my Portfolio
 
-<a href="https://cecouuu.github.io/portfolio-website/" target="_blank">Here is my Portfolio!</a>
+<a href="https://cecouuu.github.io/Portfolio-Website/" target="_blank">Here is my Portfolio!</a>
 
->>>>>>> 3a227d5e552534260a464ad5fb9a1a3a9a07aa15
+
 # Portfolio Website
 
 A personal portfolio website showcasing my skills, projects and interest in web development.
@@ -50,11 +48,6 @@ Aspiring Web Developer interested in front-end development, UI/UX design and mod
 
 ### Contact
 
-<<<<<<< HEAD
-* LinkedIn: linkedin.com/in/ckrumov
-* GitHub: github.com/Cecouuu
-=======
 * LinkedIn: <a href="https://linkedin.com/in/ckrumov" target="_blank">Tsvetoslav Krumov</a>
 * GitHub: <a href="https://github.com/Cecouuu" target="_blank">Cecouuu</a>
->>>>>>> 3a227d5e552534260a464ad5fb9a1a3a9a07aa15
 * Email: [cecokrumov9272@gmail.com](mailto:cecokrumov9272@gmail.com)
